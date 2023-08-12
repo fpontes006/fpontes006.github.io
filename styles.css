@@ -86,6 +86,17 @@ nav ul li a {
     /*border-radius: 50%;*/
 }
 
+@media (max-width: 768px) {
+    .about {
+        flex-direction: column; /* Altera a direção da flexão para coluna */
+        padding: 20px;
+    }
+
+    .about-content {
+        padding-right: 0;
+    }
+}
+
 /* ... (seus estilos existentes) */
 
 /* Estilo básico para os ícones do Font Awesome */
